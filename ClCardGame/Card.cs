@@ -15,5 +15,5 @@ public class Card
         Name = rank.ToString() + " of " + suit.ToString();
     }
 
-    public string Name { get; set; }
+    public string Name { get; }
 }

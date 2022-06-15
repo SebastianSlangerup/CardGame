@@ -4,7 +4,7 @@ using ClCardGame;
 
 Deck deck = new Deck();
 
-deck.CreateDeck(2);
+deck.CreateDeck();
 
 foreach (var card in deck.Cards)
 {
